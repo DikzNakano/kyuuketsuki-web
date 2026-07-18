@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,125 +9,173 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="bg"></div>
+    <!-- Background -->
+    <div class="background"></div>
 
-<header>
+    <!-- Navbar -->
+    <header class="navbar">
 
-<h2>KYUUKETSUKI</h2>
+        <div class="logo">
+            KYUUKETSUKI
+        </div>
 
-<nav>
+        <button id="menuBtn">
+            ☰
+        </button>
 
-<a href="#about">About</a>
-<a href="#leaders">Leaders</a>
-<a href="#stats">Stats</a>
-<a href="#contact">Contact</a>
+    </header>
 
-</nav>
+    <!-- Mobile Menu -->
+    <nav id="mobileMenu">
 
-</header>
+        <a href="#about">About</a>
+        <a href="#leaders">Leadership</a>
+        <a href="#stats">Statistics</a>
+        <a href="#hashtags">Hashtags</a>
 
-<section class="hero">
+    </nav>
 
-<h1>KYUUKETSUKI</h1>
+    <!-- Hero -->
+    <section class="hero">
 
-<p>
-An Alight Motion Editing Family
-</p>
+        <span class="official">
+            OFFICIAL WEBSITE
+        </span>
 
-<a href="#about">
-<button>Explore</button>
-</a>
+        <h1>
+            KYUUKETSUKI
+        </h1>
 
-</section>
+        <p>
+            An Alight Motion Editing Family
+        </p>
 
-<section id="about">
+        <a href="#about">
+            <button class="heroBtn">
+                Explore
+            </button>
+        </a>
 
-<h2>About</h2>
+    </section>
 
-<p>
+    <!-- About -->
+    <section id="about">
 
-Kyuuketsuki is an Alight Motion editing family built for editors who value creativity, consistency, and growth. Every member carries the same identity while expressing their own editing style.
+        <h2>About</h2>
 
-</p>
+        <p>
+            Kyuuketsuki is an Alight Motion editing family built to connect talented editors under one identity.
+            Our goal is to improve together, share creativity, and represent high-quality editing.
+        </p>
 
-</section>
+    </section>
 
-<section id="leaders">
+    <!-- Leadership -->
+    <section id="leaders">
 
-<h2>Leadership</h2>
+        <h2>Leadership</h2>
 
-<div class="cards">
+        <div class="card">
 
-<div class="card">
+            <span>Founder</span>
 
-<h3>Founder</h3>
+            <h3>ZennSenpai</h3>
 
-<p>ZennSenpai</p>
+        </div>
 
-</div>
+        <div class="card">
 
-<div class="card">
+            <span>Owner</span>
 
-<h3>Owner</h3>
+            <h3>ZennSenpai</h3>
 
-<p>ZennSenpai</p>
+        </div>
 
-</div>
+    </section>
 
-<div class="card">
+    <!-- Statistics -->
+    <section id="stats">
 
-<h3>Administrator</h3>
+        <h2>Statistics</h2>
 
-<p>Coming Soon</p>
+        <div class="stats">
 
-</div>
+            <div class="statCard">
 
-</div>
+                <h3 class="counter" data-target="36">0</h3>
 
-</section>
+                <p>Members</p>
 
-<section id="stats">
+            </div>
 
-<h2>Statistics</h2>
+            <div class="statCard">
 
-<div class="stats">
+                <h3 class="counter" data-target="182">0</h3>
 
-<div>
-<h3 class="count" data-target="26">0</h3>
-<p>Members</p>
-</div>
+                <p>Hashtags Used</p>
 
-<div>
-<h3 class="count" data-target="150">0</h3>
-<p>Hashtags Used</p>
-</div>
+            </div>
 
-<div>
-<h3 class="count" data-target="900">0</h3>
-<p>Edits</p>
-</div>
+            <div class="statCard">
 
-<div>
-<h3>2026</h3>
-<p>Founded</p>
-</div>
+                <h3>2026</h3>
 
-</div>
+                <p>Founded</p>
 
-</section>
+            </div>
 
-<footer id="contact">
+        </div>
 
-<p>© 2026 Kyuuketsuki. All Rights Reserved.</p>
+    </section>
 
-</footer>
+    <!-- Hashtags -->
+    <section id="hashtags">
 
-<script src="script.js"></script>
+        <h2>Official Hashtags</h2>
+
+        <div class="tagList">
+
+            <span>#Kyuuketsuki</span>
+
+            <span>#KyuuketsukiAM</span>
+
+            <span>#KyuuEdit</span>
+
+            <span>#KyuuMotion</span>
+
+        </div>
+
+    </section>
+
+    <!-- Quote -->
+    <section class="quote">
+
+        <h2>
+            "One Name. One Legacy."
+        </h2>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>KYUUKETSUKI</h3>
+
+        <p>
+            © 2026 All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
